@@ -27,6 +27,24 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
+"@sveltejs/adapter-netlify@^1.0.0-next.10":
+  version "1.0.0-next.10"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-netlify/-/adapter-netlify-1.0.0-next.10.tgz#f99f8503b66ff1d00ba07a9e80318f3384a99cf3"
+  integrity sha512-yv4iHSyJkB4Z4roUdUIusCI6EoLdhgs6IeQehNXB6ZBzwln9xPu9CTordEKp4KA4jO/fGcI16Lj/VIjZOpv4Hg==
+  dependencies:
+    "@sveltejs/kit" "1.0.0-next.91"
+    esbuild "^0.11.12"
+    toml "^3.0.0"
+
+"@sveltejs/kit@1.0.0-next.91":
+  version "1.0.0-next.91"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.91.tgz#9adc21d4b645ace3a2025b230c6219bc86653bc8"
+  integrity sha512-o2wjAnCMhpDNedyczQWwVQMRYRFhobTXQzBLpSentZXJjmImcdjI6InYXBe8wkilrpqHWxBqyc3VmbtBqXmxAA==
+  dependencies:
+    "@sveltejs/vite-plugin-svelte" "^1.0.0-next.7"
+    cheap-watch "^1.0.3"
+    sade "^1.7.4"
+
 "@sveltejs/kit@next":
   version "1.0.0-next.95"
   resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.95.tgz#d63e04046dec43192f90a9eccd6b9abdab594a84"
@@ -36,7 +54,7 @@
     cheap-watch "^1.0.3"
     sade "^1.7.4"
 
-"@sveltejs/vite-plugin-svelte@^1.0.0-next.9":
+"@sveltejs/vite-plugin-svelte@^1.0.0-next.7", "@sveltejs/vite-plugin-svelte@^1.0.0-next.9":
   version "1.0.0-next.9"
   resolved "https://registry.yarnpkg.com/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-1.0.0-next.9.tgz#409e20c030298e968c71d71bef141665c06e7bd9"
   integrity sha512-ySB/GJsZV3h3jqjq5WIiaxVFkJK6vqtG9gS7Iw6SfUH9ZiFNw5JjQF69g68j9cNep3q4yRIYiG5/pI3YIdXEuA==
@@ -98,6 +116,11 @@ debug@^4.3.2:
   integrity sha512-mOp8wKcvj7XxC78zLgw/ZA+6TSgkoE2C/ienthhRD298T7UNwAg9diBpLRxC0mOezLl4B0xV7M0cCO6P/O0Xhw==
   dependencies:
     ms "2.1.2"
+
+esbuild@^0.11.12:
+  version "0.11.18"
+  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.11.18.tgz#b587ec9e84d2e291b545e3c6342b5b703fd009cb"
+  integrity sha512-KD7v4N9b5B8bxPUNn/3GA9r0HWo4nJk3iwjZ+2zG1ffg+r8ig+wqj7sW6zgI6Sn4/B2FnbzqWxcAokAGGM5zwQ==
 
 esbuild@^0.9.3:
   version "0.9.7"
@@ -235,6 +258,11 @@ svelte@^3.34.0:
   version "3.38.1"
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.38.1.tgz#5d856a9d643f56a8d3e281f6dd8b4f8962155ca5"
   integrity sha512-N3XLAyfzqrFxwRLevBeW7Dke9ZlHRVGSIed5abo4Drvj+zvd2OyWpFa1x4nQUc8Lnvt4Kcn8/5le1peRDybNqg==
+
+toml@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/toml/-/toml-3.0.0.tgz#342160f1af1904ec9d204d03a5d61222d762c5ee"
+  integrity sha512-y/mWCZinnvxjTKYhJ+pYxwD0mRLVvOtdS2Awbgxln6iEnt4rk0yBxeSBHkGJcPucRiG0e55mwWp+g/05rsrd6w==
 
 vite@^2.1.0:
   version "2.2.4"
